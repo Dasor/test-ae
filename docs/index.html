@@ -55,6 +55,10 @@
              border-radius: 8px; padding: 8px 16px; }
   a.claude:hover { filter: brightness(1.1); }
   .review a.claude { margin-top: 8px; padding: 4px 12px; font-size: .9rem; }
+  footer { display: flex; justify-content: center; align-items: center; gap: 6px;
+           margin-top: 32px; color: var(--muted); font-size: .9rem; }
+  footer svg { width: 16px; height: 16px; flex: none; }
+  footer .heart { color: #e0245e; }
 </style>
 </head>
 <body>
@@ -97,6 +101,15 @@
     </div>
     <div id="review"></div>
   </section>
+
+  <footer>
+    Made with <span class="heart" aria-label="love">♥</span> and Claude
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <g stroke="#d97757" stroke-width="2.6" stroke-linecap="round">
+        <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/>
+      </g>
+    </svg>
+  </footer>
 </main>
 
 <script>

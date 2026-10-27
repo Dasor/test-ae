@@ -157,8 +157,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
     ]
   },
   {
@@ -203,8 +203,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "test23.html"
     ]
   },
@@ -228,8 +228,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "test23.html"
     ]
   },
@@ -253,8 +253,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
     ]
   },
   {
@@ -300,8 +300,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "test23.html"
     ]
   },
@@ -325,8 +325,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
       "test23.html"
     ]
   },
@@ -350,8 +350,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
     ]
   },
   {
@@ -397,8 +397,8 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
     ]
   },
   {
@@ -443,8 +443,8 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
       "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
       "test4.html"
     ]
   },
@@ -468,8 +468,8 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
     ]
   },
   {
@@ -679,6 +679,146 @@
     ],
     "sources": [
       "test4.html"
+    ]
+  },
+  {
+    "id": "a24fda146e8c",
+    "type": "multiple",
+    "question": "Sean \\(\\lambda_1 \\geq \\lambda_2 \\geq \\cdots \\geq \\lambda_p\\) los valores propios de la matriz de correlación. La proporción de la varianza explicada por las \\(k\\) primeras componentes principales es",
+    "options": [
+      "\\(\\frac{1}{1-e^{-(\\lambda_1+\\cdots+\\lambda_k)}}\\).",
+      "\\(\\frac{\\lambda_1+\\cdots+\\lambda_k}{\\lambda_1+\\cdots+\\lambda_p}\\)",
+      "\\(\\lambda_1+\\cdots+\\lambda_k\\)",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "answers": [
+      "\\(\\frac{\\lambda_1+\\cdots+\\lambda_k}{\\lambda_1+\\cdots+\\lambda_p}\\)"
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámeneas.html"
+    ]
+  },
+  {
+    "id": "6b8565dd12e5",
+    "type": "multiple",
+    "question": "El PCA, a pesar de ser una herramienta para la reducción de dimensionalidad, ¿qué inconvenientes podría tener?",
+    "options": [
+      "Interpretabilidad de los componentes principales.",
+      "Si las relaciones entre las variables no son lineales, el PCA puede no capturar adecuadamente la estructura de los datos.",
+      "Ambas son correctas."
+    ],
+    "answers": [
+      "Ambas son correctas."
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámeneas.html",
+      "test5.html"
+    ]
+  },
+  {
+    "id": "a4396b886ab7",
+    "type": "multiple",
+    "question": "¿Cuál es el principal objetivo de la reducción de la dimensionalidad?",
+    "options": [
+      "Aumentar la variabilidad de los datos.",
+      "Crear nuevas variables altamente correlacionadas.",
+      "Reducir el número de variables sin perder información relevante.",
+      "Ninguna de las anteriores."
+    ],
+    "answers": [
+      "Reducir el número de variables sin perder información relevante."
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámeneas.html",
+      "test5.html"
+    ]
+  },
+  {
+    "id": "3dc9c8d25ad3",
+    "type": "multiple",
+    "question": "¿Cuál es la principal diferencia entre PCA y PLS?",
+    "options": [
+      "No hay diferencia alguna.",
+      "PCA busca maximizar la varianza de los datos (de los predicadores si se está realizando regresión), mientras que PLS busca maximizar la covarianza entre las variables predictoras y la variable respuesta.",
+      "PCA es un método supervisado, mientras que PLS es un método no supervisado.",
+      "El PCA no se puede utilizar en regresión, el PLS sí."
+    ],
+    "answers": [
+      "PCA busca maximizar la varianza de los datos (de los predicadores si se está realizando regresión), mientras que PLS busca maximizar la covarianza entre las variables predictoras y la variable respuesta."
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámeneas.html",
+      "test5.html"
+    ]
+  },
+  {
+    "id": "44ad100e1322",
+    "type": "multiple",
+    "question": "En el PCA, los loadings (o las direcciones de las componentes principales) vienen definidos por:",
+    "options": [
+      "Los vectores propios de la matriz definida por las variables estandarizadas.",
+      "Los vectores propios de la matriz de correlación.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "answers": [
+      "Los vectores propios de la matriz de correlación."
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámeneas.html",
+      "test5.html"
+    ]
+  },
+  {
+    "id": "5b8511b64e85",
+    "type": "multiple",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el PCA es FALSA?",
+    "options": [
+      "El PCA es un método no supervisado.",
+      "Para aplicar PCA, es estrictamente necesario que las variables originales sigan una distribución normal.",
+      "El PCA puede utilizarse para hacer regresión.",
+      "Todas las anteriores son falsas."
+    ],
+    "answers": [
+      "Para aplicar PCA, es estrictamente necesario que las variables originales sigan una distribución normal."
+    ],
+    "exams": [
+      "Test 5"
+    ],
+    "topics": [
+      "PCA y PLS"
+    ],
+    "sources": [
+      "test5.html"
     ]
   }
 ]

@@ -7,7 +7,8 @@ Re-running is safe: questions already in questions.json are kept, new ones are
 added, and duplicates (same text + same options, in any order) are merged.
 
 Each question's topic is the name of the exam part it appears in. topics.json
-(optional) renames topics, e.g. {"test 1": "Regresión lineal"}.
+(optional) renames topics. Keys can be a part name ("test 1"), an exam title
+("Test 5") or both ("Test 5 / Ridge, Lasso, Selection"); the most specific wins.
 """
 import hashlib
 import json
@@ -117,8 +118,16 @@ def scrape(path):
                     badge.decompose()
                 topic = re.sub(r"^Parte \d+ de \d+\s*-\s*", "", clean(header.get_text())) or exam
             q["exams"] = [exam]
-            q["topics"] = [TOPIC_NAMES.get(topic, topic)]
+            q["topics"] = [topic_name(exam, topic)]
             yield q
+
+
+def topic_name(exam, part):
+    """Most specific rename in topics.json wins: "<exam> / <part>", then "<exam>", then "<part>"."""
+    for key in (f"{exam} / {part}", exam, part):
+        if key in TOPIC_NAMES:
+            return TOPIC_NAMES[key]
+    return part
 
 
 def main(args):
@@ -131,16 +140,18 @@ def main(args):
     if OUT.exists():
         db = {q["id"]: q for q in json.loads(OUT.read_text(encoding="utf-8"))}
     before = len(db)
+    seen = set()  # questions found in this run get their sources/exams/topics rebuilt from scratch
 
     for path in paths:
         found = new = 0
         for q in scrape(path):
             found += 1
             existing = db.get(q["id"])
-            if existing is None:
+            if existing is None or q["id"] not in seen:
+                new += existing is None
                 q["sources"] = [path.name]
                 db[q["id"]] = q
-                new += 1
+                seen.add(q["id"])
             else:
                 if existing["answers"] != q["answers"]:
                     print(f"  ! answer mismatch for {q['id']}: {existing['answers']} vs {q['answers']}",

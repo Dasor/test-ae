@@ -1,0 +1,453 @@
+[
+  {
+    "id": "cc879467060f",
+    "type": "multiple",
+    "question": "En la regresión lineal simple, ¿qué representa el coeficiente de la pendiente beta_1?",
+    "options": [
+      "El valor medio de la variable dependiente Y.",
+      "El cambio esperado en Y cuando X aumenta en una unidad.",
+      "El valor de Y cuando X=0.",
+      "La media de Y."
+    ],
+    "answers": [
+      "El cambio esperado en Y cuando X aumenta en una unidad."
+    ],
+    "exams": [
+      "Test 1"
+    ],
+    "topics": [
+      "Introducción y regresión lineal"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes1.html"
+    ]
+  },
+  {
+    "id": "26cd3809181b",
+    "type": "multiple",
+    "question": "En el aprendizaje supervisado:",
+    "options": [
+      "Las variables son cuantitativas.",
+      "Las variables son cualitativas.",
+      "Podemos tener ambos tipos de variables."
+    ],
+    "answers": [
+      "Podemos tener ambos tipos de variables."
+    ],
+    "exams": [
+      "Test 1"
+    ],
+    "topics": [
+      "Introducción y regresión lineal"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes1.html"
+    ]
+  },
+  {
+    "id": "da3fdbed2d9c",
+    "type": "truefalse",
+    "question": "En la regresión lineal simple NO se supone a priori que la variable predictor X debe seguir una distribución normal.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answers": [
+      "Verdadero"
+    ],
+    "exams": [
+      "Test 1"
+    ],
+    "topics": [
+      "Introducción y regresión lineal"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes1.html"
+    ]
+  },
+  {
+    "id": "cad3dea5f02b",
+    "type": "multiple",
+    "question": "Un estadístico es:",
+    "options": [
+      "Una función lineal de los parámetros de la población.",
+      "Una cantidad calculada a partir de una muestra para estimar un parámetro desconocido de una población.",
+      "Ambas son correctas."
+    ],
+    "answers": [
+      "Una cantidad calculada a partir de una muestra para estimar un parámetro desconocido de una población."
+    ],
+    "exams": [
+      "Test 1"
+    ],
+    "topics": [
+      "Introducción y regresión lineal"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes1.html"
+    ]
+  },
+  {
+    "id": "ea7647958771",
+    "type": "multiple",
+    "question": "En una regresión lineal, el coeficiente de determinación R^2 mide:",
+    "options": [
+      "El valor esperado de los residuos.",
+      "El error estándar de los coeficientes estimados.",
+      "La proporción de la variabilidad de Y explicada por el modelo lineal."
+    ],
+    "answers": [
+      "La proporción de la variabilidad de Y explicada por el modelo lineal."
+    ],
+    "exams": [
+      "Test 1"
+    ],
+    "topics": [
+      "Introducción y regresión lineal"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes1.html"
+    ]
+  },
+  {
+    "id": "e2fd20bd69b6",
+    "type": "multiple",
+    "question": "En la regresión logística y LDA, ¿qué se utiliza para evaluar el rendimiento del modelo?",
+    "options": [
+      "\\(R^2\\)",
+      "Matriz de confusión.",
+      "El MSE (error cuadrático medio).",
+      "Ninguna de las anteriores."
+    ],
+    "answers": [
+      "Matriz de confusión."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "2e25be844e5a",
+    "type": "multiple",
+    "question": "En la regresión logística, ¿qué se denomina log odds o logit?",
+    "options": [
+      "\\(-\\beta_0-\\beta1X\\)",
+      "\\(\\beta_0+\\beta1X\\)",
+      "\\(log(\\beta_0+\\beta1X)\\)",
+      "Ninguna de las anteriores"
+    ],
+    "answers": [
+      "\\(\\beta_0+\\beta1X\\)"
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "2ac7f0c0e823",
+    "type": "multiple",
+    "question": "¿Cuál es una de las supuestos clave a la hora de aplicar LDA?",
+    "options": [
+      "Las diferentes categorías tienen la misma media.",
+      "Las diferentes categorías son de diferente tamaño.",
+      "No hay correlación entre variables.",
+      "Las variables predictores siguen una distribución normal por categoría."
+    ],
+    "answers": [
+      "Las variables predictores siguen una distribución normal por categoría."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "fc0649fe28a9",
+    "type": "multiple",
+    "question": "Cómo se interpreta un Odds o razón de probabilidad mayor a 1 para una variable predictora en regresión logística:",
+    "options": [
+      "A mayor valor del odds, disminuye la probabilidad de que ocurra el evento.",
+      "El valor de odd no indica en particular.",
+      "A mayor valor del odd, aumenta la probabilidad de que ocurra el evento."
+    ],
+    "answers": [
+      "A mayor valor del odd, aumenta la probabilidad de que ocurra el evento."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "39c51e900d0d",
+    "type": "multiple",
+    "question": "¿Cuál es la principal función de la regresión logística?",
+    "options": [
+      "Predecir valores continuos.",
+      "Predecir probabilidades y clasificar datos en categorías",
+      "Reducir la dimensionalidad.",
+      "Ninguna de las anteriores."
+    ],
+    "answers": [
+      "Predecir probabilidades y clasificar datos en categorías"
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "005a9df4517a",
+    "type": "multiple",
+    "question": "¿Cuál de las siguientes es una medida común del error en regresión lineal con sólo un parámetro?",
+    "options": [
+      "Coeficiente de correlación.",
+      "Error cuadrático medio (MSE).",
+      "\\(R^2\\)",
+      "Todas las anteriores."
+    ],
+    "answers": [
+      "Todas las anteriores."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "f68206bb5063",
+    "type": "multiple",
+    "question": "Para validar un modelo general, ¿cuál es la gran diferencia entre validación cruzada con k-iteraciones y validación cruzada leave-one-out (LOOCV)?",
+    "options": [
+      "El número y el tamaño de las particiones del conjunto de datos.",
+      "No hay diferencia alguna.",
+      "La manera en que se estima el error."
+    ],
+    "answers": [
+      "El número y el tamaño de las particiones del conjunto de datos."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "8a7dde53420a",
+    "type": "multiple",
+    "question": "¿Para qué se utiliza el bootstrapping en el contexto de la regresión lineal?",
+    "options": [
+      "Para seleccionar las variables independientes más importantes.",
+      "Para transformar los datos a una escala normal.",
+      "Para estimar los intervalos de confianza de los coeficientes de regresión.",
+      "Para reducir la dimensionalidad de los datos."
+    ],
+    "answers": [
+      "Para estimar los intervalos de confianza de los coeficientes de regresión."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "6f9112584d85",
+    "type": "multiple",
+    "question": "En el método de bootstrapping, ¿cómo se generan las muestras de entrenamiento?",
+    "options": [
+      "Dividiendo los datos en conjuntos de entrenamiento y prueba de forma aleatoria.",
+      "Muestreando con repetición (reemplazo) del conjunto de datos original.",
+      "Eliminando aleatoriamente observaciones del conjunto de datos original.",
+      "Ninguna de los anteriores."
+    ],
+    "answers": [
+      "Muestreando con repetición (reemplazo) del conjunto de datos original."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "07a1374897ba",
+    "type": "multiple",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el bootstrapping es FALSA?",
+    "options": [
+      "El bootstrapping se utiliza para estimar la variabilidad del error (SE) en los parámetros de un modelo.",
+      "El bootstrapping es una técnica de remuestreo que implica muestrear con repetición (reemplazo).",
+      "El bootstrapping siempre produce intervalos de confianza más precisos que los métodos tradicionales, independientemente del tamaño de la muestra.",
+      "Todas las anteriores son falsas."
+    ],
+    "answers": [
+      "El bootstrapping siempre produce intervalos de confianza más precisos que los métodos tradicionales, independientemente del tamaño de la muestra."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+    ]
+  },
+  {
+    "id": "83f45304108a",
+    "type": "multiple",
+    "question": "¿Qué método de selección de subconjuntos evalúa todos los posibles subconjuntos de predictores?",
+    "options": [
+      "Forward Selection.",
+      "Backward Selection",
+      "Lasso Regression",
+      "Best subset selection."
+    ],
+    "answers": [
+      "Best subset selection."
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+    ]
+  },
+  {
+    "id": "e877d734b31e",
+    "type": "multiple",
+    "question": "Los estadísticos Mallow's Cp, Akaike information criterion (AIC), Bayesian information criterion (BIC) y Adjusted \\(R^2\\) tienen como finalidad",
+    "options": [
+      "Estudiar la colinealidad de los predictores dados.",
+      "Estimar el error para seleccionar entre un conjunto de modelos con diferentes números de predictores.",
+      "Ninguna de las anteriores."
+    ],
+    "answers": [
+      "Estimar el error para seleccionar entre un conjunto de modelos con diferentes números de predictores."
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+    ]
+  },
+  {
+    "id": "2c6bbae7ce26",
+    "type": "multiple",
+    "question": "Al hacer regulación de Ridge, dado \\(\\lambda\\) , ¿qué problema estamos planteando?",
+    "options": [
+      "Minimizo \\(\\left( \\sum_{i=1}^n(y_i-{\\beta}_0-{\\beta}_1x_{i1}-\\ldots -{\\beta}_px_{ip})^2 + \\lambda \\sum_{j=1}^p\\mid\\beta_j\\mid\\right)\\)",
+      "Minimizo \\(\\left( \\sum_{i=1}^n(y_i-{\\beta}_0-{\\beta}_1x_{i1}-\\ldots -{\\beta}_px_{ip})^2 + \\lambda \\sum_{j=1}^p\\beta_j^2\\right)\\)",
+      "Ninguna de las anteriores"
+    ],
+    "answers": [
+      "Minimizo \\(\\left( \\sum_{i=1}^n(y_i-{\\beta}_0-{\\beta}_1x_{i1}-\\ldots -{\\beta}_px_{ip})^2 + \\lambda \\sum_{j=1}^p\\beta_j^2\\right)\\)"
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+    ]
+  },
+  {
+    "id": "3c7399244783",
+    "type": "multiple",
+    "question": "¿Cuál de las siguientes afirmaciones sobre Lasso es verdadera?",
+    "options": [
+      "Siempre produce modelos más complejos que Ridge.",
+      "Puede eliminar completamente algunos predictores del modelo.",
+      "Válido cuando el número de observaciones es mayor que el número de predictores.",
+      "Todas las anteriores."
+    ],
+    "answers": [
+      "Puede eliminar completamente algunos predictores del modelo."
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+    ]
+  },
+  {
+    "id": "e5cd75e55490",
+    "type": "multiple",
+    "question": "En Ridge Regression, ¿cuál es el efecto principal de agregar el término de penalización?",
+    "options": [
+      "Aumentar la complejidad del modelo.",
+      "Eliminar completamente ciertos predictores.",
+      "Reducir la magnitud de los coeficientes, pero no a cero.",
+      "Mejora la interpretabilidad del modelo."
+    ],
+    "answers": [
+      "Reducir la magnitud de los coeficientes, pero no a cero."
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+    ]
+  }
+]

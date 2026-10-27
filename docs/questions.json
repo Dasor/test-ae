@@ -152,7 +152,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -197,7 +198,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -220,7 +222,8 @@
       "Regresión log. LDA"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -243,7 +246,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -288,7 +292,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -311,7 +316,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -334,7 +340,8 @@
       "V. Cruzada"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2y3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
     ]
   },
   {
@@ -379,7 +386,8 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
     ]
   },
   {
@@ -424,7 +432,8 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
     ]
   },
   {
@@ -447,7 +456,122 @@
       "Ridge, Lasso, Selection"
     ],
     "sources": [
-      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html"
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes3.html",
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
+    ]
+  },
+  {
+    "id": "b1c4dd85b37f",
+    "type": "multiple",
+    "question": "¿Cuál es la principal diferencia entre LDA y regresión logística?",
+    "options": [
+      "LDA se utiliza para problemas de clasificación binaria, mientras que la regresión logística se utiliza para problemas de clasificación múltiple.",
+      "LDA asume normalidad y homogeneidad de varianzas, mientras que la regresión logística no lo hace.",
+      "No hay ninguna diferencia."
+    ],
+    "answers": [
+      "LDA asume normalidad y homogeneidad de varianzas, mientras que la regresión logística no lo hace."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+    ]
+  },
+  {
+    "id": "457573f79fb2",
+    "type": "multiple",
+    "question": "¿Cuál es la función utilizada en la regresión logística para modelar la probabilidad, con un sólo predictor X e Y binaria?",
+    "options": [
+      "\\(\\frac{1}{1+e^{\\beta_1X}}\\)",
+      "\\(\\frac{1}{1+e^{\\beta_0+\\beta_1X}}\\)",
+      "\\(\\frac{e^{\\beta_0+\\beta_1X}}{1+e^{\\beta_0+\\beta_1X}}\\)",
+      "\\(\\frac{e^{\\beta_0+\\beta_1X}}{1+e^{-\\beta_0-\\beta_1X}}\\)"
+    ],
+    "answers": [
+      "\\(\\frac{e^{\\beta_0+\\beta_1X}}{1+e^{\\beta_0+\\beta_1X}}\\)"
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "Regresión log. LDA"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+    ]
+  },
+  {
+    "id": "f420468d1b7f",
+    "type": "multiple",
+    "question": "¿Qué significa que un modelo está sobreajustado (overfitting)?",
+    "options": [
+      "El modelo tiene demasiados parámetros.",
+      "El modelo se ajusta muy poco a los datos de entrenamiento y no captura la relación entre las variables.",
+      "El modelo se ajusta demasiado bien a los datos de entrenamiento y no generaliza bien a nuevos datos.",
+      "Ninguna de las anteriores."
+    ],
+    "answers": [
+      "El modelo se ajusta demasiado bien a los datos de entrenamiento y no generaliza bien a nuevos datos."
+    ],
+    "exams": [
+      "Test 2 y 3"
+    ],
+    "topics": [
+      "V. Cruzada"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes.html"
+    ]
+  },
+  {
+    "id": "5169a95bf2e2",
+    "type": "multiple",
+    "question": "¿Cuál es el objetivo principal de la técnica de subset selection?",
+    "options": [
+      "Aumentar la cantidad de predictores en el modelo",
+      "Identificar el mejor subconjunto de predictores que minimiza el error de predicción.",
+      "Aumentar la complejidad del modelo.",
+      "Reducir el tiempo de entrenamiento del modelo."
+    ],
+    "answers": [
+      "Identificar el mejor subconjunto de predictores que minimiza el error de predicción."
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
+    ]
+  },
+  {
+    "id": "f5c39f6842c3",
+    "type": "multiple",
+    "question": "¿Qué técnica penaliza la suma de los valores absolutos de los coeficientes de regresión, a excepción del independiente?",
+    "options": [
+      "Subset Selection",
+      "Ridge Regression",
+      "Lasso Regression",
+      "Ninguno de los anteriores"
+    ],
+    "answers": [
+      "Lasso Regression"
+    ],
+    "exams": [
+      "Test 4"
+    ],
+    "topics": [
+      "Ridge, Lasso, Selection"
+    ],
+    "sources": [
+      "Aula Virtual _ (6422) APRENDIZAJE ESTADÍSTICO [26_27] _ Exámenes2.html"
     ]
   }
 ]

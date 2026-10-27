@@ -51,6 +51,10 @@
   .review { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
   .review .ans { color: var(--ok); } .review .yours { color: var(--bad); }
   .katex { font-size: 1.05em; }
+  a.claude { display: inline-block; text-decoration: none; color: #fff; background: #c96442;
+             border-radius: 8px; padding: 8px 16px; }
+  a.claude:hover { filter: brightness(1.1); }
+  .review a.claude { margin-top: 8px; padding: 4px 12px; font-size: .9rem; }
 </style>
 </head>
 <body>
@@ -77,6 +81,7 @@
     <div class="options" id="q-options"></div>
     <div class="feedback" id="feedback"></div>
     <div class="row">
+      <a class="claude hidden" id="explain" target="_blank" rel="noopener">Explícamelo con Claude ↗</a>
       <button id="check" class="primary hidden">Comprobar</button>
       <button id="next" class="primary hidden">Siguiente</button>
       <button id="quit" style="margin-left:auto">Terminar</button>
@@ -113,6 +118,25 @@ function renderMath(el) {
     renderMathInElement(el, { delimiters: [
       { left: "\\[", right: "\\]", display: true }, { left: "\\(", right: "\\)", display: false } ] });
   }
+}
+
+// Link to a new claude.ai chat with a prefilled prompt explaining the mistake.
+function claudeUrl(q, picked) {
+  const prompt = [
+    "Estoy repasando para un examen de Aprendizaje Estadístico y he fallado esta pregunta tipo test.",
+    "",
+    `Pregunta: ${q.question}`,
+    "",
+    "Opciones:",
+    ...q.options.map(o => `- ${o}`),
+    "",
+    `Mi respuesta: ${picked.join("; ")}`,
+    `Respuesta correcta: ${q.answers.join("; ")}`,
+    "",
+    "Explícame por qué mi respuesta no es correcta y por qué la respuesta correcta sí lo es. " +
+    "Si ayuda, incluye la intuición o un ejemplo breve.",
+  ].join("\n");
+  return "https://claude.ai/new?q=" + encodeURIComponent(prompt);
 }
 
 function show(section) {
@@ -181,6 +205,7 @@ function renderQuestion() {
   $("q-text").textContent = q.question + (multi ? " (varias respuestas)" : "");
   $("feedback").textContent = "";
   $("feedback").className = "feedback";
+  $("explain").classList.add("hidden");
   $("next").classList.add("hidden");
   $("check").classList.toggle("hidden", !multi);
   $("check").disabled = true;
@@ -225,6 +250,10 @@ function check() {
   if (ok) score++; else wrong.push({ q, picked });
   $("feedback").textContent = ok ? "¡Correcto!" : "Incorrecto";
   $("feedback").className = "feedback " + (ok ? "ok" : "bad");
+  if (!ok) {
+    $("explain").href = claudeUrl(q, picked);
+    $("explain").classList.remove("hidden");
+  }
   $("live-score").textContent = `${score} correctas`;
   $("check").classList.add("hidden");
   $("next").classList.remove("hidden");
@@ -247,10 +276,12 @@ function finish() {
   for (const { q, picked } of wrong) {
     const div = document.createElement("div");
     div.className = "review";
-    div.innerHTML = `<div class="question"></div><div class="yours"></div><div class="ans"></div>`;
+    div.innerHTML = `<div class="question"></div><div class="yours"></div><div class="ans"></div>
+      <a class="claude" target="_blank" rel="noopener">Explícamelo con Claude ↗</a>`;
     div.children[0].textContent = q.question;
     div.children[1].textContent = "Tu respuesta: " + picked.join("; ");
     div.children[2].textContent = "Correcta: " + q.answers.join("; ");
+    div.children[3].href = claudeUrl(q, picked);
     $("review").appendChild(div);
   }
   show("results");
